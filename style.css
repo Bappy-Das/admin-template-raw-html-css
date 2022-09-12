@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.full-card-border {
+  border-radius: 3vh !important;
+}
+
+.collapse-icon header .toggle {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%) rotate(180deg);
+  height: 25px;
+  width: 25px;
+  background-color: var(--primary-color);
+  color: var(--sidebar-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  transition: var(--tran-05);
+}
+
+.collapse-icon header .toggle {
+  color: var(--text-color);
+}
+
+.collapse-icon.close .toggle {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+/* log in  */
+
+/* .full-login-body {
+  background-image: url("images/xit-bannern.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
+
+.full-login-body {
+  padding: 10px;
+  background-color: #f1f5f9;
+}
+.login-row {
+  border-radius: 20px;
+  background-color: white;
+}
+.login-left {
+  background-image: url("asset/images/express-background-vector.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin-left: 10px;
+}
